@@ -4,7 +4,6 @@
   "description": "10 Days ICT Bootcamp",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "repository": {
@@ -22,6 +21,12 @@
   "dependencies": {
     "body-parser": "^2.2.0",
     "cors": "^2.8.5",
+    "croc": "^0.0.22",
     "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.53.1",
+    "@types/node": "^24.0.3",
+    "playwright": "^1.53.1"
   }
 }
